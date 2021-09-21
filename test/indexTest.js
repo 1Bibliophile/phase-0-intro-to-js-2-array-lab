@@ -94,30 +94,5 @@ describe('index.js', function () {
   });
 });
 
-function destructivelyAppendCat(feline)
-{
-    const cat[];
-    cat.push(feline);
-    return feline;
-}
 
-function destructivelyPrependCat(feline)
-{
-    const cat[];
-    cat.unshift(feline);
-    return feline;
-}
-
-function destructivelyRemoveLastCat()
-{
-    const cat[];
-    cat.pop();
-    return;
-}
-
-function destructivelyRemoveFirstCat()
-{
-    const cat[];
-    cat.shift();
-    return;
-}
+  
