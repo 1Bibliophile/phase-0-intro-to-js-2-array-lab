@@ -1,6 +1,6 @@
 // Write your solution here!
 const cats = []
-const appendCats = []
+//const appendCats = []
 const prependCats = []
 const removeLastCats = []
 const removeFirstCats = []
@@ -25,10 +25,9 @@ function destructivelyRemoveFirstCat(){
     return cats.shift()
 }
 
-function appendCat(name){
-    return appendCats = [...cats, name]
-}
-
+const appendCats = [...cats, "Broom"]
+  
+/*
 function prependCat(name){
     return prependCats = [name, ...cats]
 }
@@ -42,6 +41,7 @@ function removeFirstCat(){
     removeFirstCats = cats.slice()
     return removeFirstCats.shift()
 }
+*/
 
-appendCat("Broom")
-prependCat("Arnold")
+//appendCat("Broom")
+//prependCat("Arnold")

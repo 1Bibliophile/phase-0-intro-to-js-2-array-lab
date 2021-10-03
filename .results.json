@@ -5,9 +5,9 @@
     "passes": 5,
     "pending": 0,
     "failures": 4,
-    "start": "2021-09-21T14:12:23.833Z",
-    "end": "2021-09-21T14:12:24.058Z",
-    "duration": 225
+    "start": "2021-10-03T21:12:30.098Z",
+    "end": "2021-10-03T21:12:30.261Z",
+    "duration": 163
   },
   "tests": [
     {
@@ -27,7 +27,7 @@
     {
       "title": "prepends a cat to the beginning of the cats array",
       "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,7 +48,7 @@
     {
       "title": "appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
       "fullTitle": "index.js Array functions appendCat(name) appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: appendCat is not a function\n    at Context.<anonymous> (test/indexTest.js:54:16)\n    at processImmediate (node:internal/timers:464:21)",
@@ -91,7 +91,7 @@
     {
       "title": "appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
       "fullTitle": "index.js Array functions appendCat(name) appends a cat to the cats array and returns a new array, leaving the cats array unchanged",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "TypeError: appendCat is not a function\n    at Context.<anonymous> (test/indexTest.js:54:16)\n    at processImmediate (node:internal/timers:464:21)",
@@ -147,7 +147,7 @@
     {
       "title": "prepends a cat to the beginning of the cats array",
       "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
